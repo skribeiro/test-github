@@ -10,5 +10,4 @@ jobs:
     steps:
       - name: check out code
         uses: actions/checkout@v4
-
       - run: echo "$(cat hello_world.txt)"
